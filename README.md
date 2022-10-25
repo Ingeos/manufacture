@@ -25,10 +25,12 @@ addon | version | maintainers | summary
 [mrp_bom_multi_company](mrp_bom_multi_company/) | 12.0.1.0.0 |  | Multi Company Bill of Materials
 [mrp_bom_note](mrp_bom_note/) | 12.0.1.0.0 |  | Notes in Bill of Materials
 [mrp_bom_tracking](mrp_bom_tracking/) | 12.0.1.0.1 |  | Logs any change to a BoM in the chatter
-[mrp_multi_level](mrp_multi_level/) | 12.0.2.3.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Adds an MRP Scheduler
+[mrp_mto_with_stock](mrp_mto_with_stock/) | 12.0.1.0.0 |  | Fix Manufacturing orders to pull from stock until qty is zero, and then create a procurement for them.
+[mrp_multi_level](mrp_multi_level/) | 12.0.2.4.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Adds an MRP Scheduler
 [mrp_multi_level_estimate](mrp_multi_level_estimate/) | 12.0.1.1.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Allows to consider demand estimates using MRP multi level.
 [mrp_planned_order_matrix](mrp_planned_order_matrix/) | 12.0.1.0.1 |  | Allows to create fixed planned orders on a grid view.
 [mrp_production_auto_post_inventory](mrp_production_auto_post_inventory/) | 12.0.1.1.0 |  | Production Auto Post-Inventory
+[mrp_production_filter_lot](mrp_production_filter_lot/) | 12.0.1.0.0 |  | In production order production popup, filter lots based on their location and availability
 [mrp_production_grouped_by_product](mrp_production_grouped_by_product/) | 12.0.1.0.0 |  | Production Grouped By Product
 [mrp_production_hierarchy](mrp_production_hierarchy/) | 12.0.1.0.0 |  | View the hierarchy of generated production orders
 [mrp_production_note](mrp_production_note/) | 12.0.1.0.0 |  | Notes in production orders
@@ -48,7 +50,7 @@ addon | version | maintainers | summary
 [mrp_workorder_sequence](mrp_workorder_sequence/) | 12.0.1.0.0 | [![lreficent](https://github.com/lreficent.png?size=30px)](https://github.com/lreficent) | adds sequence to production work orders.
 [product_mrp_info](product_mrp_info/) | 12.0.1.0.0 | [![lreficent](https://github.com/lreficent.png?size=30px)](https://github.com/lreficent) | Adds smart button in product form view linking to manufacturing order list.
 [product_quick_bom](product_quick_bom/) | 12.0.1.0.0 | [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) [![kevinkhao](https://github.com/kevinkhao.png?size=30px)](https://github.com/kevinkhao) | Create the bom directly from the product
-[quality_control](quality_control/) | 12.0.1.4.0 |  | Generic infrastructure for quality tests.
+[quality_control](quality_control/) | 12.0.1.5.0 |  | Generic infrastructure for quality tests.
 [quality_control_issue](quality_control_issue/) | 12.0.1.0.0 | [![lreficent](https://github.com/lreficent.png?size=30px)](https://github.com/lreficent) | Allow to manage and report Quality Control Issues.
 [quality_control_mrp](quality_control_mrp/) | 12.0.1.0.0 |  | MRP extension for quality control
 [quality_control_stock](quality_control_stock/) | 12.0.1.0.2 |  | Quality control - Stock
@@ -57,8 +59,10 @@ addon | version | maintainers | summary
 [repair_default_terms_conditions](repair_default_terms_conditions/) | 12.0.1.0.0 | [![marcelsavegnago](https://github.com/marcelsavegnago.png?size=30px)](https://github.com/marcelsavegnago) | This module allows repair default terms & conditions
 [repair_discount](repair_discount/) | 12.0.1.0.0 |  | Repair Discount
 [repair_payment_term](repair_payment_term/) | 12.0.1.0.0 | [![mileo](https://github.com/mileo.png?size=30px)](https://github.com/mileo) | This module add to Repair Orders the *Payment Term* field
+[repair_quality_control_issue](repair_quality_control_issue/) | 12.0.1.0.0 | [![cubells](https://github.com/cubells.png?size=30px)](https://github.com/cubells) | Add the possibility to create repairs orders from quality control issues.
 [repair_refurbish](repair_refurbish/) | 12.0.1.1.3 |  | Create refurbished products during repair
 [repair_timeline](repair_timeline/) | 12.0.1.0.1 | [![marcelsavegnago](https://github.com/marcelsavegnago.png?size=30px)](https://github.com/marcelsavegnago) | Add timeline view
+[stock_mts_mto_rule_mrp](stock_mts_mto_rule_mrp/) | 12.0.1.0.0 |  | Add support for MTS+MTO route on manufacturing
 [stock_picking_product_kit_helper](stock_picking_product_kit_helper/) | 12.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Set quanity in picking line based on product kit quantity
 [stock_whole_kit_constraint](stock_whole_kit_constraint/) | 12.0.1.0.0 |  | Avoid to deliver a kit partially
 
